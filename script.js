@@ -23,6 +23,7 @@ async function searchMovies() {
     container.innerHTML = `<p>No movies found!</p>`;
   }
 }
+
 async function showSuggestions() {
   const suggestions = ["Inception", "Avengers", "Interstellar", "The Matrix", "John Wick"];
 
